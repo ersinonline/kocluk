@@ -1,0 +1,110 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+#menu {
+    width: 250px;
+    background-color: #ffb700;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    margin: 15px 0;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+h1 {
+    color: #ffb700;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffb700;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6a700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffb700;
+    color: #fff;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.progress-slider {
+    margin: 10px 0;
+}
+
+.progress-value {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+iframe {
+    border: none;
+}
